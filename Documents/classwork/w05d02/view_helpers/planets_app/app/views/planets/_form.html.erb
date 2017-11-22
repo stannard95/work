@@ -1,0 +1,20 @@
+<%= form_for(planet) do |f| %>
+	
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+
+	<%= f.label :flag_url %>
+	<%= f.text_field :flag_url %>
+
+	<%= f.label :lang %>
+	<%= f.text_field :lang %>
+
+	<%= f.label :population %>
+	<%= f.number_field :population %>
+
+	<%= f.label :president %>
+	<%= f.text_field :president %>
+
+	<%= f.submit %>
+
+<% end %>

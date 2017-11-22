@@ -1,0 +1,41 @@
+#container {
+	width: 500px;
+	height: 500px;
+	border: solid black 2px;
+	margin: 0 auto;
+}
+
+.form
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+#input {
+
+}
+
+.element {
+	display: inline-block;
+}
+
+.checkbox {
+	display: inline-block;
+	width: 100px;
+	float: right;
+
+}
+
+.deleteButton {
+	display: inline-block;
+	width: 100px;
+	float: right;
+}
+
+.buttonContainer {
+	width: 400px;
+	height: 50px;
+
+}

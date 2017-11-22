@@ -1,0 +1,9 @@
+<h1>Planets</h1>
+
+<h1>Name: <%=planet.name %></h1>
+<h1>Population: <%=planet.population %></h1>
+<h1>President: <%=planet.president %></h1>
+<h1>Language: <%=planet.lang %></h1>
+<%= image_tag(planet.flag_url, {:style => "width:100px;"}) %>
+<%= link_to "Show page", planet if action_name === "index" %>
+<%= link_to "Edit page", edit_planet_path(planet) %>

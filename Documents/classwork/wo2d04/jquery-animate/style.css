@@ -1,0 +1,7 @@
+.small-ball {
+	border-radius: 360px;
+	border: solid 2px black;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+}

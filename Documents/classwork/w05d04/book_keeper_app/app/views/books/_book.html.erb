@@ -1,0 +1,9 @@
+<div class="book">
+  <p>Title: <strong><%= book.title %></strong></p>
+  <p>Author: <strong><%= book.author %></strong></p>
+
+  <%= image_tag book.img_url %>
+  <br>
+  <%= link_to "Show Page", book if action_name == "index" %> 
+  <%= link_to "Edit Page", edit_book_path(book) %>
+</div>

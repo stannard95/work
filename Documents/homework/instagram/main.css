@@ -1,0 +1,104 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-image: url("images/bgtile.png");
+  background-repeat: repeat-x;
+
+}
+
+#container {
+	margin-top: 0 auto;
+	height: 500px;
+}
+
+#phones {
+	display: inline-block;
+	margin-left: 250px;
+}
+
+/*Container for the logo and text box*/
+#text_area {
+	display: inline-block;
+	width: 600px;
+	height: 300px;
+	margin-left: 50px;
+
+}
+
+/*Where the text is written*/
+#text_box {
+	width: 700px;
+	height: 400px;
+	background-image: url("images/frame.png");	
+	background-repeat: no-repeat;
+	background-size: 900px 500px;
+	margin-bottom: 200px;
+	display: inline-block;
+
+}
+
+
+/*Instagram logo heading*/
+#brand {
+	width: 600px;
+	
+}
+
+/*login button*/
+#login {
+	background-color: blue;
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	float: right;
+}
+
+
+#login_text {
+	color: white;
+	display: inline;
+}
+
+#footer {
+	width: 600px;
+	margin-left: 500px;
+	padding-top: 200px;
+	text-align: center;
+}
+
+/*Capture and share the worlds moments*/
+#title {
+	color: blue;
+	text-align: center;
+}
+
+p {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*Apple android download*/
+#image_apps {
+	margin-top: 100px;
+	margin-left: 100px;
+
+}
+
+.footer_text {
+	color: blue;
+	display: inline;
+
+}
+
+#home_image {
+	padding-top: 10px;
+}
+
+

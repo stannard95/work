@@ -1,0 +1,2 @@
+echo 'script3.txt'
+whoami
