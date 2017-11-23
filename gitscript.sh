@@ -1,6 +1,5 @@
 echo "completing commits..."
 
-cd ~/work
 git st
 
 echo "stage? (y/n)"
